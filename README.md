@@ -1,6 +1,6 @@
-<!-- 🌸 Pastel Banner -->
+<!-- 🌸 Top Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8FBC8F,100:F4C2C2&height=200&section=header&text=Data%20Portfolio&fontSize=40&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8FBC8F,100:F4C2C2&height=180&section=header&text=Kirsten%20Livingston&fontSize=38&fontColor=ffffff"/>
 </p>
 
 ---
