@@ -1,69 +1,54 @@
 <!-- 🌸 Pastel Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8FBC8F,100:F4C2C2&height=200&section=header&text=Data%20Portfolio&fontSize=40&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8FBC8F,100:F4C2C2&height=200&section=header&text=Data%20Portfolio%20Kirsten%20Livingston&fontSize=40&fontColor=ffffff"/>
 </p>
 
 ---
 
 ## 🌿 About Me
 
-🌸 Hi, I'm Kirsten Livingston!  
-I'm a emerging data scientist passionate about turning raw data into actionable insights  
+🌸 Hi, I'm Kirsten Livingston.  
+An emerging data scientist passionate about turning raw data into actionable insights.
 
-I'm passionate about using data to tell stories that matter. My work is inspired by the world around us — nature, patterns, and human behavior — turning data into something both **insightful and visually engaging**.
-
-──────────────── ✨ ────────────────────
-
-## 🌼 What I Do
-
-✨ Clean and transform messy data into usable insights  
-📊 Create visualizations that tell a story  
-🤖 Build models to understand patterns and predictions  
-🌎 Explore real-world and creative datasets  
-
-──────────────── ✨ ────────────────────
-
-## 🌿 Featured Projects
-
-### 📽️ Amazon Review Sentiment Analysis  
-🔗 *Coming soon*  
-
-<p align="center">
-  <img src="images/amazon-preview.png" width="500"/>
-</p>
+I enjoy using data to tell meaningful stories inspired by nature, patterns, and human behavior—transforming information into something both insightful and visually engaging.
 
 ---
 
-### 📽️ Spotify Listening History Analysis  
-🎧 Exploring trends in music and listener behavior  
-📊 Focus: Popularity patterns & audio features  
-🔗 *Coming soon*  
-
+<!-- 🌿 Section Banner -->
 <p align="center">
-  <img src="x" width="500"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=What%20I%20Do&fontSize=22&fontColor=ffffff"/>
 </p>
+
+- Clean and transform messy data into usable insights  
+- Create visualizations that communicate clear stories  
+- Build models to understand patterns and predictions  
+- Explore both real-world and creative datasets
 
 ---
 
-### 📽️ High-Fidelity Sentiment Distillation  
-🔗 *Coming soon*  
-
 <p align="center">
-  <img src="x" width="500"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=Featured%20Projects&fontSize=22&fontColor=ffffff"/>
 </p>
+
+**Amazon Review Sentiment Analysis**  
+Sentiment modeling and customer insight analysis  
+🔗 Coming soon  
+
+**Spotify Listening History Analysis**  
+Exploring trends in music and listener behavior  
+🔗 Coming soon  
+
+**High-Fidelity Sentiment Distillation**  
+🔗 Coming soon  
+
+**MCU Data Visualization**  
+🔗 Coming soon  
 
 ---
 
-### 📽️ MCU Data Visualization  
-🔗 *Coming soon*  
-
 <p align="center">
-  <img src="x" width="500"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=Skills%20%26%20Tools&fontSize=22&fontColor=ffffff"/>
 </p>
-
-──────────────── ✨ ────────────────────
-
-## 🌼 Skills & Tools
 
 🌍 **Languages**  
 Python • R • SQL  
@@ -78,18 +63,22 @@ Data Cleaning & Wrangling • EDA • Data Visualization • Machine Learning
 GitHub • Jupyter Notebook • RStudio
 Excel • Google Sheets • Interactive Dashboards
 
-──────────────── ✨ ────────────────────
+---
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=Currently%20Growing🌱&fontSize=22&fontColor=ffffff"/>
+</p>
 
-## 🌱 Currently Growing
+- Expanding machine learning projects  
+- Building interactive dashboards  
+- Improving data storytelling and design  
 
-🌸 Expanding machine learning projects  
-🌿 Building interactive dashboards  
-🌙 Improving data storytelling and design  
+---
 
-──────────────── ✨ ────────────────────
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=Connect%20With%20Me&fontSize=22&fontColor=ffffff"/>
+</p>
 
-## 🌙 Connect With Me
 
 📫 LinkedIn: *comming soon*  
 📧 Email: *comming soon* 
