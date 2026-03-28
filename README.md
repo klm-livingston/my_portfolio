@@ -13,7 +13,7 @@ I'm a emerging data scientist passionate about turning raw data into actionable 
 I blend **analytical thinking** with **creative design** to transform raw data into meaningful insights.  
 My work is inspired by the world around us — nature, patterns, and human behavior — turning data into something both **insightful and visually engaging**.
 
-─────────────────────────────────────── 🌿 ───────────────────────────────────────────
+─────────────────────────────── 🌿 ───────────────────────────────────
 
 ## 🌸 What I Do
 
@@ -22,7 +22,7 @@ My work is inspired by the world around us — nature, patterns, and human behav
 🤖 Build models to understand patterns and predictions  
 🌎 Explore real-world and creative datasets  
 
-─────────────────────────────────────── 🌙 ───────────────────────────────────────────
+─────────────────────────────── 🌙 ───────────────────────────────────
 
 ## 🌲 Featured Projects
 
@@ -62,7 +62,7 @@ My work is inspired by the world around us — nature, patterns, and human behav
   <img src="images/mcu-preview.png" width="500"/>
 </p>
 
-─────────────────────────────────────── 🌸 ───────────────────────────────────────────
+─────────────────────────────── 🌸 ───────────────────────────────────
 
 ## 🌼 Skills & Tools
 
@@ -79,7 +79,7 @@ Data Cleaning & Wrangling • EDA • Data Visualization • Machine Learning
 GitHub • Jupyter Notebook • RStudio
 Excel • Google Sheets • Interactive Dashboards
 
-─────────────────────────────────────── ✨ ──────────────────────────────────────────
+─────────────────────────────── ✨ ──────────────────────────────────
 
 
 ## 🌱 Currently Growing
@@ -88,7 +88,7 @@ Excel • Google Sheets • Interactive Dashboards
 🌿 Building interactive dashboards  
 🌙 Improving data storytelling and design  
 
-─────────────────────────────────────── 🌿 ──────────────────────────────────────────
+─────────────────────────────── 🌿 ──────────────────────────────────
 
 ## 🌙 Connect With Me
 
