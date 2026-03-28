@@ -82,9 +82,9 @@ Excel • Google Sheets • Interactive Dashboards
 
 
 📫 LinkedIn: *comming soon*  
-📧 Email: *comming soon* 
-✨ Portfolio: *comming soon* 
-🔑 GitHub: *comming soon*
+📧 Email: *comming soon*  
+✨ Portfolio: *comming soon*   
+🔑 GitHub: *comming soon*  
 
 ---
 
