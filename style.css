@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf6;
+  color: #2f3e2f;
+}
+
+/* 🌙 Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #8FBC8F, #F4C2C2);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* 🌿 Sections */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* 🌸 Headings */
+h2 {
+  border-bottom: 2px solid #8FBC8F;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* 🌙 Projects */
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* 🌿 Skills */
+.skills p {
+  line-height: 2;
+}
+
+/* 🌸 Contact */
+.contact {
+  text-align: center;
+}
