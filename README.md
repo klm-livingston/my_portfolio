@@ -16,7 +16,7 @@ I enjoy using data to tell meaningful stories inspired by nature, patterns, and 
 
 <!-- 🌿 Section Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=What%20I%20Do&fontSize=22&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=💡What%20I%20Do&fontSize=22&fontColor=ffffff"/>
 </p>
 
 - Clean and transform messy data into usable insights  
@@ -27,7 +27,7 @@ I enjoy using data to tell meaningful stories inspired by nature, patterns, and 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=Featured%20Projects&fontSize=22&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=📽️Featured%20Projects&fontSize=22&fontColor=ffffff"/>
 </p>
 
 **Amazon Review Sentiment Analysis**  
@@ -47,7 +47,7 @@ Exploring trends in music and listener behavior
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=Skills%20%26%20Tools&fontSize=22&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=🧰Skills%20&Tools&fontSize=22&fontColor=ffffff"/>
 </p>
 
 
@@ -77,7 +77,7 @@ Excel • Google Sheets • Interactive Dashboards
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=Connect%20With%20Me&fontSize=22&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=🔗Connect%20With%20Me&fontSize=22&fontColor=ffffff"/>
 </p>
 
 
