@@ -5,47 +5,75 @@ body {
   color: #2f3e2f;
 }
 
-/* 🌙 Hero */
+/* 🌙 HERO */
 .hero {
-  text-align: center;
-  padding: 100px 20px;
   background: linear-gradient(to right, #8FBC8F, #F4C2C2);
+  text-align: center;
+  padding: 80px 20px;
   color: white;
 }
 
-.hero h1 {
-  font-size: 3rem;
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
 }
 
-/* 🌿 Sections */
+.hero h1 {
+  margin: 10px 0 5px;
+  font-size: 2.5rem;
+}
+
+/* 🌿 SECTIONS */
 section {
   padding: 60px 20px;
   max-width: 900px;
   margin: auto;
 }
 
-/* 🌸 Headings */
+/* 🌸 HEADINGS */
 h2 {
-  border-bottom: 2px solid #8FBC8F;
-  display: inline-block;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
 }
 
-/* 🌙 Projects */
-.project-card {
-  background: #ffffff;
+h2::after {
+  content: "🌿";
+  display: block;
+  margin-top: 5px;
+}
+
+/* 🌙 PROJECT GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* 🌸 CARDS */
+.card {
+  background: white;
   padding: 20px;
-  margin: 15px 0;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* 🌿 Skills */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* 🌿 SKILLS */
 .skills p {
+  text-align: center;
   line-height: 2;
 }
 
-/* 🌸 Contact */
+/* 🌸 CONTACT */
 .contact {
   text-align: center;
 }
