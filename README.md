@@ -50,6 +50,7 @@ Exploring trends in music and listener behavior
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:F4C2C2,100:8FBC8F&height=60&section=header&text=Skills%20%26%20Tools&fontSize=22&fontColor=ffffff"/>
 </p>
 
+
 🌍 **Languages**  
 Python • R • SQL  
 
@@ -66,7 +67,7 @@ Excel • Google Sheets • Interactive Dashboards
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=Currently%20Growing🌱&fontSize=22&fontColor=ffffff"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8FBC8F,100:F4C2C2&height=60&section=header&text=🌱Currently%20Growing&fontSize=22&fontColor=ffffff"/>
 </p>
 
 - Expanding machine learning projects  
