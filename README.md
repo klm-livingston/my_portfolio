@@ -10,21 +10,20 @@
 🌸 Hi, I'm Kirsten Livingston!  
 I'm a emerging data scientist passionate about turning raw data into actionable insights  
 
-I blend **analytical thinking** with **creative design** to transform raw data into meaningful insights.  
-My work is inspired by the world around us — nature, patterns, and human behavior — turning data into something both **insightful and visually engaging**.
+I'm passionate about using data to tell stories that matter. My work is inspired by the world around us — nature, patterns, and human behavior — turning data into something both **insightful and visually engaging**.
 
-──────────────── 🌿 ────────────────────
+──────────────── ✨ ────────────────────
 
-## 🌸 What I Do
+## 🌼 What I Do
 
 ✨ Clean and transform messy data into usable insights  
 📊 Create visualizations that tell a story  
 🤖 Build models to understand patterns and predictions  
 🌎 Explore real-world and creative datasets  
 
-──────────────── 🌙 ──────────────────── 
+──────────────── ✨ ────────────────────
 
-## 🌲 Featured Projects
+## 🌿 Featured Projects
 
 ### 📽️ Amazon Review Sentiment Analysis  
 🔗 *Coming soon*  
@@ -41,7 +40,7 @@ My work is inspired by the world around us — nature, patterns, and human behav
 🔗 *Coming soon*  
 
 <p align="center">
-  <img src="images/spotify-preview.png" width="500"/>
+  <img src="x" width="500"/>
 </p>
 
 ---
@@ -50,36 +49,36 @@ My work is inspired by the world around us — nature, patterns, and human behav
 🔗 *Coming soon*  
 
 <p align="center">
-  <img src="images/spotify-preview.png" width="500"/>
+  <img src="x" width="500"/>
 </p>
 
 ---
 
-### 🌿 MCU Data Visualization  
+### 📽️ MCU Data Visualization  
 🔗 *Coming soon*  
 
 <p align="center">
-  <img src="images/mcu-preview.png" width="500"/>
+  <img src="x" width="500"/>
 </p>
 
-──────────────────── 🌸 ────────────────────
+──────────────── ✨ ────────────────────
 
 ## 🌼 Skills & Tools
 
-🌿 **Languages**  
+🌍 **Languages**  
 Python • R • SQL  
 
-🌸 **Libraries & Tools**  
+🛠️ **Libraries & Tools**  
 Pandas • NumPy • Matplotlib • Seaborn • ggplot2 • Tableau  
 
-🌙 **Techniques**  
+ ✍️ **Techniques**  
 Data Cleaning & Wrangling • EDA • Data Visualization • Machine Learning
 
-🌲 **Tools & Platforms**
+🖥️  **Platforms**  
 GitHub • Jupyter Notebook • RStudio
 Excel • Google Sheets • Interactive Dashboards
 
-──────────────────── ✨ ────────────────────
+──────────────── ✨ ────────────────────
 
 
 ## 🌱 Currently Growing
@@ -88,7 +87,7 @@ Excel • Google Sheets • Interactive Dashboards
 🌿 Building interactive dashboards  
 🌙 Improving data storytelling and design  
 
-──────────────────── 🌿 ────────────────────
+──────────────── ✨ ────────────────────
 
 ## 🌙 Connect With Me
 
@@ -100,5 +99,5 @@ Excel • Google Sheets • Interactive Dashboards
 ---
 
 <p align="center">
-  ✨ Growing, learning, and building one dataset at a time 🌸
+  🌸 Growing, learning, and building one dataset at a time
 </p>
