@@ -7,13 +7,13 @@
 
 ## 🌿 About Me
 
-🌸 Hi, I'm [Your Name]  
-🌙 Data Analyst passionate about storytelling through data  
+🌸 Hi, I'm Kirsten Livingston!  
+I'm a emerging data scientist passionate about turning raw data into actionable insights  
 
 I blend **analytical thinking** with **creative design** to transform raw data into meaningful insights.  
 My work is inspired by the world around us — nature, patterns, and human behavior — turning data into something both **insightful and visually engaging**.
 
-─── 🌿 ───
+─────────────────────────────────────────────── 🌿 ───────────────────────────────────────────────────
 
 ## 🌸 What I Do
 
@@ -22,13 +22,11 @@ My work is inspired by the world around us — nature, patterns, and human behav
 🤖 Build models to understand patterns and predictions  
 🌎 Explore real-world and creative datasets  
 
-─── 🌙 ───
+─────────────────────────────────────────────── 🌙 ───────────────────────────────────────────────────
 
 ## 🌲 Featured Projects
 
-### 🌸 Amazon Review Sentiment Analysis  
-📝 Analyzing customer feedback using NLP and machine learning  
-📊 Focus: Sentiment classification & consumer insights  
+### 📽️ Amazon Review Sentiment Analysis  
 🔗 *Coming soon*  
 
 <p align="center">
@@ -37,7 +35,7 @@ My work is inspired by the world around us — nature, patterns, and human behav
 
 ---
 
-### 🌙 Spotify Data Exploration  
+### 📽️ Spotify Listening History Analysis  
 🎧 Exploring trends in music and listener behavior  
 📊 Focus: Popularity patterns & audio features  
 🔗 *Coming soon*  
@@ -48,16 +46,23 @@ My work is inspired by the world around us — nature, patterns, and human behav
 
 ---
 
+### 📽️ High-Fidelity Sentiment Distillation  
+🔗 *Coming soon*  
+
+<p align="center">
+  <img src="images/spotify-preview.png" width="500"/>
+</p>
+
+---
+
 ### 🌿 MCU Data Visualization  
-🎬 Storytelling through cinematic data and character insights  
-📊 Focus: Visual analytics & trends  
 🔗 *Coming soon*  
 
 <p align="center">
   <img src="images/mcu-preview.png" width="500"/>
 </p>
 
-─── 🌸 ───
+─────────────────────────────────────────────── 🌸 ───────────────────────────────────────────────────
 
 ## 🌼 Skills & Tools
 
@@ -65,19 +70,17 @@ My work is inspired by the world around us — nature, patterns, and human behav
 Python • R • SQL  
 
 🌸 **Libraries & Tools**  
-Pandas • NumPy • ggplot2 • Tableau  
+Pandas • NumPy • Matplotlib • Seaborn • ggplot2 • Tableau  
 
 🌙 **Techniques**  
-Data Cleaning • EDA • Data Visualization • Machine Learning  
+Data Cleaning & Wrangling • EDA • Data Visualization • Machine Learning
 
-─── 🌲 ───
+🌲 **Tools & Platforms**
+GitHub • Jupyter Notebook • RStudio
+Excel • Google Sheets • Interactive Dashboards
 
-## 🌎 Portfolio Vision
+─────────────────────────────────────────────── ✨ ──────────────────────────────────────────────────
 
-This portfolio is a growing collection of projects focused on **making data more human and understandable**.  
-Each project reflects a balance between **technical skill** and **creative storytelling**.
-
-─── ✨ ───
 
 ## 🌱 Currently Growing
 
@@ -85,12 +88,14 @@ Each project reflects a balance between **technical skill** and **creative story
 🌿 Building interactive dashboards  
 🌙 Improving data storytelling and design  
 
-─── 🌿 ───
+─────────────────────────────────────────────── 🌿 ──────────────────────────────────────────────────
 
 ## 🌙 Connect With Me
 
-📫 LinkedIn: *Add link*  
-📧 Email: *Add email*  
+📫 LinkedIn: *comming soon*  
+📧 Email: *comming soon* 
+✨ Portfolio: *comming soon* 
+🔑 GitHub: *comming soon*
 
 ---
 
