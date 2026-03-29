@@ -321,3 +321,52 @@ body::after {
   opacity: 0.15;
   font-size: 22px;
 }
+/* 🌸 SIDE PASTEL BLOBS / LEFT & RIGHT MARGIN COLORS */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12%;
+  height: 100%;
+  background: rgba(143, 188, 143, 0.05); /* subtle pastel green */
+  z-index: 0; /* behind content */
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 12%;
+  height: 100%;
+  background: rgba(244, 194, 194, 0.05); /* subtle pastel pink */
+  z-index: 0; /* behind content */
+}
+
+/* 🌸 OPTIONAL: floating blobs in white content areas */
+body .content-blob {
+  position: fixed;
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.08;
+  pointer-events: none; /* so it doesn’t block clicks */
+}
+
+/* Left blob */
+body .content-blob.one {
+  top: 25%;
+  left: -150px;
+  width: 300px;
+  height: 300px;
+  background: #8FBC8F;
+}
+
+/* Right blob */
+body .content-blob.two {
+  bottom: 10%;
+  right: -180px;
+  width: 350px;
+  height: 350px;
+  background: #F4C2C2;
+}
