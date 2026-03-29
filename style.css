@@ -183,8 +183,9 @@ body {
   z-index: 10;
 }
 
-/* ✨ SHOW ONLY WHEN HOVERING TAB */
-.info-wrapper:hover .side-panel {
+/* ✨ SHOW PANEL (smooth + no flicker + usable links) */
+.info-wrapper:hover .side-panel,
+.side-panel:hover {
   right: 0;
   opacity: 1;
   visibility: visible;
@@ -280,19 +281,19 @@ body::after {
   background: rgba(244,194,194,0.06);
 }
 
-/* 🌸 WHITE AREA BLOBS (improved visibility + motion) */
+/* 🌸 WHITE AREA BLOBS (fixed animation) */
 .content-blob {
   position: fixed;
   border-radius: 50%;
-  opacity: 0.25; /* 👈 stronger but still soft */
-  filter: blur(40px); /* 👈 smoother glow instead of harsh circle */
+  opacity: 0.25;
+  filter: blur(40px);
   z-index: 0;
   pointer-events: none;
 
   animation: floatBlob 12s ease-in-out infinite;
 }
 
-/* Blob 1 (left upper) */
+/* Blob 1 */
 .content-blob.one {
   top: 25%;
   left: -120px;
@@ -301,7 +302,7 @@ body::after {
   background: #8FBC8F;
 }
 
-/* Blob 2 (right lower) */
+/* Blob 2 */
 .content-blob.two {
   bottom: 10%;
   right: -140px;
@@ -311,28 +312,27 @@ body::after {
   animation-delay: 3s;
 }
 
-/* 🌟 NEW Blob 3 (middle floating) */
+/* Blob 3 (FIXED) */
 .content-blob.three {
   top: 55%;
   left: 50%;
-  transform: translateX(-50%);
   width: 220px;
   height: 220px;
-  background: #E6E6FA; /* soft lavender */
+  background: #E6E6FA;
   opacity: 0.18;
   animation-delay: 6s;
 }
 
-/* ✨ Floating animation */
+/* ✨ Fixed animation (includes X + Y movement) */
 @keyframes floatBlob {
   0% {
-    transform: translateY(0px) scale(1);
+    transform: translate(-50%, 0px) scale(1);
   }
   50% {
-    transform: translateY(-25px) scale(1.05);
+    transform: translate(-50%, -25px) scale(1.05);
   }
   100% {
-    transform: translateY(0px) scale(1);
+    transform: translate(-50%, 0px) scale(1);
   }
 }
 
@@ -350,7 +350,7 @@ body::after {
 }
 
 .sparkle:nth-of-type(2) {
-  bottom: 10%; 
+  bottom: 5%; 
   right: 6%;
 }
 
