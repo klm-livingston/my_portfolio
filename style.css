@@ -44,8 +44,7 @@ body {
   text-align: center;
   padding: 80px 20px;
   color: white;
-
-  position: relative; /* ⭐ IMPORTANT for sidebar positioning */
+  position: relative; /* ⭐ for side panel positioning */
 }
 
 .profile-pic {
@@ -92,7 +91,7 @@ body {
 .info-tab {
   position: absolute;
   right: 0;
-  top: 160px;
+  top: 140px;
 
   background: #8FBC8F;
   color: white;
@@ -102,19 +101,19 @@ body {
   font-size: 13px;
   cursor: pointer;
 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: background 0.2s ease;
+  box-shadow: 0 0 12px rgba(143, 188, 143, 0.6);
+  transition: background 0.2s ease, box-shadow 0.3s ease;
 }
 
 .info-tab:hover {
   background: #6fa86f;
 }
 
-/* 🌿 SIDE PANEL (hidden state) */
+/* 🌿 SIDE PANEL (hidden by default) */
 .side-panel {
   position: absolute;
-  right: -230px; /* 👈 hidden off screen */
-  top: 130px;
+  right: -230px; /* hidden off-screen */
+  top: 120px;
 
   background: rgba(255, 255, 255, 0.95);
   padding: 18px;
@@ -125,12 +124,14 @@ body {
   font-size: 14px;
   color: #2f3e2f;
 
-  transition: right 0.35s ease;
+  transition: right 0.35s ease, opacity 0.35s ease;
+  opacity: 0;
 }
 
-/* ✨ SHOW PANEL (hover ONLY on tab) */
+/* ✨ SHOW PANEL (hover on tab or panel) */
 .hero:hover .side-panel {
   right: 0;
+  opacity: 1;
 }
 
 /* 🌸 SIDE TEXT */
