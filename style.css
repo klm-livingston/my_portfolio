@@ -319,7 +319,7 @@ body::after {
   transform: translateX(-50%);
   width: 200px;
   height: 200px;
-  background: #E6E6FA;
+  background: #edc9af;
   opacity: 0.4; /* 👈 stronger than before */
   animation-delay: 4s;
 }
