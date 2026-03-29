@@ -285,8 +285,8 @@ body::after {
 .content-blob {
   position: fixed;
   border-radius: 50%;
-  opacity: 0.35; /* 👈 stronger */
-  filter: blur(25px); /* 👈 less blur = more visible */
+  opacity: 0.4; /* 👈 stronger */
+  filter: blur(20px); /* 👈 less blur = more visible */
   z-index: 0;
   pointer-events: none;
 
@@ -296,7 +296,7 @@ body::after {
 /* 🌿 LEFT BLOB (FIXED - bring into view) */
 .content-blob.one {
   top: 25%;
-  left: -60px; /* 👈 WAS -120px (too far) */
+  left: -10px; /* 👈 WAS -120px (too far) */
   width: 260px;
   height: 260px;
   background: #8FBC8F;
@@ -305,7 +305,7 @@ body::after {
 /* 🌸 RIGHT BOTTOM (keep but slightly balanced) */
 .content-blob.two {
   bottom: 10%;
-  right: -80px; /* 👈 WAS -140px */
+  right: -50px; /* 👈 WAS -140px */
   width: 300px;
   height: 300px;
   background: #F4C2C2;
@@ -320,7 +320,7 @@ body::after {
   width: 200px;
   height: 200px;
   background: #E6E6FA;
-  opacity: 0.28; /* 👈 stronger than before */
+  opacity: 0.3; /* 👈 stronger than before */
   animation-delay: 4s;
 }
 
