@@ -313,13 +313,13 @@ body::after {
 
 /* 🌟 CENTER (FIXED) */
 .content-blob.three {
-  top: 60%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   width: 200px;
   height: 200px;
   background: #E6E6FA;
-  opacity: 0.3;
+  opacity: 0.2;
 
   animation: floatCenter 11s ease-in-out infinite;
 }
