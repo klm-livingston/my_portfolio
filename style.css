@@ -318,7 +318,7 @@ body::after {
 }
 
 .sparkle:nth-of-type(2) {
-  top: 75%;   /* 👈 instead of bottom */
+  bottom: 10%; 
   right: 6%;
 }
 /* ✨ FLOATING ANIMATION (add at very bottom of file) */
