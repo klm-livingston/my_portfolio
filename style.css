@@ -184,7 +184,7 @@ body {
 }
 
 /* ✨ SHOW ONLY WHEN HOVERING TAB */
-.info-tab:hover + .side-panel {
+.info-wrapper:hover .side-panel {
   right: 0;
   opacity: 1;
   visibility: visible;
@@ -284,8 +284,8 @@ body::after {
 .content-blob {
   position: fixed;
   border-radius: 50%;
-  opacity: 0.08;
-  z-index: 0;
+  opacity: 0.15; /* 👈 more visible */
+  filter: blur(10px); /* 👈 softer, more aesthetic */
 }
 
 .content-blob.one {
@@ -318,6 +318,6 @@ body::after {
 }
 
 .sparkle:nth-of-type(2) {
-  bottom: 15%;
+  top: 75%;   /* 👈 instead of bottom */
   right: 6%;
 }
