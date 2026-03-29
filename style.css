@@ -315,12 +315,12 @@ body::after {
 /* 🌟 CENTER FLOATING (make it actually visible) */
 .content-blob.three {
   bottom: 20%;
-  left: -10%;
+  left: 30%;
   transform: translateX(-50%);
   width: 200px;
   height: 200px;
   background: #edc9af;
-  opacity: 0.4; /* 👈 stronger than before */
+  opacity: 0.6; /* 👈 stronger than before */
   animation-delay: 4s;
 }
 
