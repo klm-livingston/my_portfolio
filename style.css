@@ -314,8 +314,8 @@ body::after {
 
 /* 🌟 CENTER FLOATING (make it actually visible) */
 .content-blob.three {
-  top: 60%;
-  left: 50%;
+  bottom: 15%;
+  left: 20%;
   transform: translateX(-50%);
   width: 200px;
   height: 200px;
