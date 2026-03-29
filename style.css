@@ -168,7 +168,7 @@ body {
 /* 🌿 SIDE PANEL */
 .side-panel {
   position: absolute;
-  top: 35px; /* 👈 BELOW TAB (fix flicker) */
+  top: calc(100% - 5px);
   right: -230px;
   width: 220px;
 
@@ -320,4 +320,15 @@ body::after {
 .sparkle:nth-of-type(2) {
   top: 75%;   /* 👈 instead of bottom */
   right: 6%;
+}
+/* ✨ FLOATING ANIMATION (add at very bottom of file) */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Apply to blobs only */
+.content-blob {
+  animation: float 8s ease-in-out infinite;
 }
