@@ -88,36 +88,67 @@ body {
   background: #6fa86f;
 }
 
-/* 🌙 SIDE PANEL */
+/* 🌙 INFO TAB (trigger) */
+.info-tab {
+  position: absolute;
+  right: 0;
+  top: 160px;
+
+  background: #8FBC8F;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 12px 0 0 12px;
+
+  font-size: 13px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background 0.2s ease;
+}
+
+.info-tab:hover {
+  background: #6fa86f;
+}
+
+/* 🌿 SIDE PANEL (hidden state) */
 .side-panel {
   position: absolute;
-  right: 30px;
-  top: 100px;
+  right: -230px; /* 👈 hidden off screen */
+  top: 130px;
 
-  background: rgba(255, 255, 255, 0.85);
-  padding: 15px;
-  border-radius: 15px;
-  width: 180px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 18px;
+  border-radius: 18px 0 0 18px;
+  width: 200px;
 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   font-size: 14px;
   color: #2f3e2f;
+
+  transition: right 0.35s ease;
+}
+
+/* ✨ SHOW PANEL (hover ONLY on tab) */
+.hero:hover .side-panel {
+  right: 0;
 }
 
 /* 🌸 SIDE TEXT */
 .mini-bio {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-style: italic;
+  line-height: 1.4;
 }
 
 /* 🌿 SIDE SECTIONS */
 .side-section {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .side-section h4 {
-  margin-bottom: 5px;
-  font-size: 14px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  opacity: 0.8;
 }
 
 /* 🌙 SIDE LINKS */
@@ -125,7 +156,7 @@ body {
   display: block;
   text-decoration: none;
   color: #2f3e2f;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   transition: 0.2s;
 }
 
