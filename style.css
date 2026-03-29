@@ -87,22 +87,23 @@ body {
   background: #6fa86f;
 }
 
-/* 🌙 INFO TAB (trigger) */
-.info-tab {
+/* 🌙 INFO WRAPPER */
+.info-wrapper {
   position: absolute;
+  top: 160px;
   right: 0;
-  top: 140px;
+}
 
+/* 🌙 TAB */
+.info-tab {
   background: #8FBC8F;
   color: white;
   padding: 10px 14px;
   border-radius: 12px 0 0 12px;
-
   font-size: 13px;
   cursor: pointer;
-
-  box-shadow: 0 0 12px rgba(143, 188, 143, 0.6);
-  transition: background 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background 0.2s ease;
 }
 
 .info-tab:hover {
@@ -112,26 +113,21 @@ body {
 /* 🌿 SIDE PANEL (hidden by default) */
 .side-panel {
   position: absolute;
-  right: -230px; /* hidden off-screen */
-  top: 120px;
-
+  right: -230px;  /* hidden initially */
+  top: 0;
   background: rgba(255, 255, 255, 0.95);
   padding: 18px;
   border-radius: 18px 0 0 18px;
-  width: 200px;
-
+  width: 220px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   font-size: 14px;
   color: #2f3e2f;
-
-  transition: right 0.35s ease, opacity 0.35s ease;
-  opacity: 0;
+  transition: right 0.35s ease;
 }
 
-/* ✨ SHOW PANEL (hover on tab or panel) */
-.hero:hover .side-panel {
+/* ✨ SHOW PANEL ONLY WHEN HOVERING TAB OR PANEL */
+.info-wrapper:hover .side-panel {
   right: 0;
-  opacity: 1;
 }
 
 /* 🌸 SIDE TEXT */
