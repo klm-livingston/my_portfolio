@@ -44,6 +44,8 @@ body {
   text-align: center;
   padding: 80px 20px;
   color: white;
+
+  position: relative; /* ⭐ IMPORTANT for sidebar positioning */
 }
 
 .profile-pic {
@@ -84,6 +86,51 @@ body {
 
 .btn:hover {
   background: #6fa86f;
+}
+
+/* 🌙 SIDE PANEL */
+.side-panel {
+  position: absolute;
+  right: 30px;
+  top: 100px;
+
+  background: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  border-radius: 15px;
+  width: 180px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  font-size: 14px;
+  color: #2f3e2f;
+}
+
+/* 🌸 SIDE TEXT */
+.mini-bio {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* 🌿 SIDE SECTIONS */
+.side-section {
+  margin-top: 10px;
+}
+
+.side-section h4 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* 🌙 SIDE LINKS */
+.side-panel a {
+  display: block;
+  text-decoration: none;
+  color: #2f3e2f;
+  margin-bottom: 5px;
+  transition: 0.2s;
+}
+
+.side-panel a:hover {
+  color: #8FBC8F;
 }
 
 /* 🌿 SECTIONS */
