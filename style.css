@@ -45,6 +45,59 @@ body {
   padding: 80px 20px;
   color: white;
   position: relative; /* ⭐ for side panel positioning */
+  overflow: hidden; /* ensure pseudo-elements stay within hero */
+}
+
+/* ✨ Soft Side Gradient Overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0.15), transparent);
+  pointer-events: none; /* allow clicks through */
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255,255,255,0.15), transparent);
+  pointer-events: none;
+}
+
+/* ✨ Floating Blobs / Shapes */
+.hero .blob {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: 0; /* behind hero content */
+}
+
+.hero .blob.one {
+  width: 180px;
+  height: 180px;
+  top: 50px;
+  left: 40px;
+}
+
+.hero .blob.two {
+  width: 220px;
+  height: 220px;
+  bottom: 60px;
+  right: 50px;
+}
+
+.hero .blob.three {
+  width: 120px;
+  height: 120px;
+  top: 200px;
+  right: 150px;
 }
 
 .profile-pic {
