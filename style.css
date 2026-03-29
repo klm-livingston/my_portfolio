@@ -87,11 +87,14 @@ body {
   background: #6fa86f;
 }
 
-/* 🌙 INFO WRAPPER */
+/* 🌙 INFO WRAPPER (only wraps the tab, not extra space) */
 .info-wrapper {
   position: absolute;
   top: 160px;
   right: 0;
+  height: auto;       /* ensure it only wraps its content */
+  display: inline-block; /* shrink to tab width */
+  z-index: 10;
 }
 
 /* 🌙 TAB */
@@ -104,6 +107,7 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: background 0.2s ease;
+  display: inline-block; /* shrink to content width */
 }
 
 .info-tab:hover {
@@ -113,8 +117,8 @@ body {
 /* 🌿 SIDE PANEL (hidden by default) */
 .side-panel {
   position: absolute;
-  right: -230px;  /* hidden initially */
-  top: 0;
+  top: 0;          /* relative to wrapper */
+  right: -230px;   /* hidden initially */
   background: rgba(255, 255, 255, 0.95);
   padding: 18px;
   border-radius: 18px 0 0 18px;
@@ -125,7 +129,7 @@ body {
   transition: right 0.35s ease;
 }
 
-/* ✨ SHOW PANEL ONLY WHEN HOVERING TAB OR PANEL */
+/* ✨ SHOW PANEL ONLY WHEN HOVERING THE TAB */
 .info-wrapper:hover .side-panel {
   right: 0;
 }
