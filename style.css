@@ -281,59 +281,66 @@ body::after {
   background: rgba(244,194,194,0.06);
 }
 
-/* 🌸 WHITE AREA BLOBS (VISIBLE + BALANCED) */
+/* 🌸 WHITE AREA BLOBS (final clean version) */
 .content-blob {
   position: fixed;
   border-radius: 50%;
-  opacity: 0.4; /* 👈 stronger */
-  filter: blur(20px); /* 👈 less blur = more visible */
+  opacity: 0.35;
+  filter: blur(25px);
   z-index: 0;
   pointer-events: none;
-
-  animation: floatBlob 10s ease-in-out infinite;
 }
 
-/* 🌿 LEFT BLOB (FIXED - bring into view) */
+/* 🌿 LEFT */
 .content-blob.one {
   top: 25%;
-  left: -10px; /* 👈 WAS -120px (too far) */
+  left: -60px;
   width: 260px;
   height: 260px;
   background: #8FBC8F;
+  animation: floatSide 10s ease-in-out infinite;
 }
 
-/* 🌸 RIGHT BOTTOM (keep but slightly balanced) */
+/* 🌸 RIGHT */
 .content-blob.two {
   bottom: 10%;
-  right: -50px; /* 👈 WAS -140px */
+  right: -80px;
   width: 300px;
   height: 300px;
   background: #F4C2C2;
-  animation-delay: 2s;
+  animation: floatSide 12s ease-in-out infinite;
 }
 
-/* 🌟 CENTER FLOATING (make it actually visible) */
+/* 🌟 CENTER (FIXED) */
 .content-blob.three {
-  bottom: 20%;
-  left: 30%;
+  top: 60%;
+  left: 50%;
   transform: translateX(-50%);
   width: 200px;
   height: 200px;
-  background: #edc9af;
-  opacity: 0.6; /* 👈 stronger than before */
-  animation-delay: 4s;
+  background: #E6E6FA;
+  opacity: 0.3;
+
+  animation: floatCenter 11s ease-in-out infinite;
 }
 
-/* ✨ FLOAT ANIMATION */
-@keyframes floatBlob {
+/* ✨ Side blobs animation */
+@keyframes floatSide {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+/* ✨ Center blob animation (keeps centered) */
+@keyframes floatCenter {
   0% {
-    transform: translate(-50%, 0px) scale(1);
+    transform: translateX(-50%) translateY(0px);
   }
   50% {
-    transform: translate(-50%, -20px) scale(1.05);
+    transform: translateX(-50%) translateY(-20px);
   }
   100% {
-    transform: translate(-50%, 0px) scale(1);
+    transform: translateX(-50%) translateY(0px);
   }
 }
 
