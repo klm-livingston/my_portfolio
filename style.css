@@ -3,6 +3,9 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fdfaf6;
   color: #2f3e2f;
+  position: relative;
+  overflow-x: hidden; /* prevent horizontal scroll from floating blobs */
+  z-index: 0;
 }
 
 /* 🌿 NAVBAR */
@@ -44,39 +47,17 @@ body {
   text-align: center;
   padding: 80px 20px;
   color: white;
-  position: relative; /* ⭐ for side panel positioning */
-  overflow: hidden; /* ensure pseudo-elements stay within hero */
+  position: relative; /* for blobs and info panel */
+  overflow: visible; /* let "More" panel slide outside */
+  z-index: 1;
 }
 
-/* ✨ Soft Side Gradient Overlay */
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 15%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(255,255,255,0.15), transparent);
-  pointer-events: none; /* allow clicks through */
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 15%;
-  height: 100%;
-  background: linear-gradient(to left, rgba(255,255,255,0.15), transparent);
-  pointer-events: none;
-}
-
-/* ✨ Floating Blobs / Shapes */
+/* ✨ Hero floating blobs */
 .hero .blob {
   position: absolute;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.15);
-  z-index: 0; /* behind hero content */
+  z-index: 0;
 }
 
 .hero .blob.one {
@@ -100,6 +81,7 @@ body {
   right: 150px;
 }
 
+/* Profile picture and text */
 .profile-pic {
   width: 260px;
   height: auto;
@@ -113,7 +95,6 @@ body {
   font-size: 2.5rem;
 }
 
-/* 🌿 HERO TEXT */
 .tagline {
   font-size: 1.2rem;
   margin: 10px 0;
@@ -140,20 +121,16 @@ body {
   background: #6fa86f;
 }
 
-/* 🌙 INFO WRAPPER: wraps both tab and panel */
+/* 🌙 INFO WRAPPER & PANEL */
 .info-wrapper {
   position: absolute;
   top: 160px;
   right: 0;
-  height: auto;
-  display: inline-block; /* shrink to tab width */
+  display: inline-block;
   z-index: 10;
-
-  /* hide overflowing panel initially */
-  overflow: visible; /* panel slides out, not clipped */
+  overflow: visible;
 }
 
-/* 🌙 TAB */
 .info-tab {
   background: #8FBC8F;
   color: white;
@@ -166,38 +143,33 @@ body {
   display: inline-block;
 }
 
-/* hover effect for tab only */
 .info-tab:hover {
   background: #6fa86f;
 }
 
-/* 🌿 SIDE PANEL (hidden by default) */
 .side-panel {
   position: absolute;
   top: 0;
-  right: -220px;   /* completely hidden offscreen */
-  background: rgba(255, 255, 255, 0.95);
+  right: -220px;
+  background: rgba(255,255,255,0.95);
   padding: 18px;
   border-radius: 18px 0 0 18px;
   width: 220px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   font-size: 14px;
   color: #2f3e2f;
-
-  /* make it invisible until hover */
   visibility: hidden;
   opacity: 0;
   transition: right 0.35s ease, opacity 0.3s ease, visibility 0s linear 0.35s;
-  z-index: 5; /* make sure tab is above panel */
+  z-index: 5;
 }
 
-/* ✨ SHOW PANEL ONLY WHEN HOVERING THE TAB */
 .info-tab:hover + .side-panel {
-  right: -10;
+  right: -10px;
   visibility: visible;
   opacity: 1;
   transition: right 0.35s ease, opacity 0.3s ease;
-   z-index: 1;
+  z-index: 10;
 }
 
 /* 🌸 SIDE TEXT */
@@ -207,7 +179,6 @@ body {
   line-height: 1.4;
 }
 
-/* 🌿 SIDE SECTIONS */
 .side-section {
   margin-top: 12px;
 }
@@ -218,7 +189,6 @@ body {
   opacity: 0.8;
 }
 
-/* 🌙 SIDE LINKS */
 .side-panel a {
   display: block;
   text-decoration: none;
@@ -272,24 +242,12 @@ h2::after {
   box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
-/* 🌿 CENTER ALIGN */
 .center {
   text-align: center;
   margin-top: 20px;
 }
 
-/* 🌿 SKILLS */
-.skills p {
-  text-align: center;
-  line-height: 2;
-}
-
-/* 🌸 CONTACT */
-.contact {
-  text-align: center;
-}
-
-/* 🌙 FOOTER */
+/* 🌿 FOOTER */
 .footer {
   text-align: center;
   padding: 30px;
@@ -303,25 +261,7 @@ h2::after {
   text-decoration: none;
 }
 
-/* ✨ SUBTLE SPARKLES */
-body::before {
-  content: "✧ ✨ ✦";
-  position: fixed;
-  top: 10%;
-  left: 5%;
-  opacity: 0.15;
-  font-size: 22px;
-}
-
-body::after {
-  content: "✦ ✧ ✨";
-  position: fixed;
-  bottom: 10%;
-  right: 5%;
-  opacity: 0.15;
-  font-size: 22px;
-}
-/* 🌸 SIDE PASTEL BLOBS / LEFT & RIGHT MARGIN COLORS */
+/* ✨ SIDE PASTEL MARGINS */
 body::before {
   content: "";
   position: fixed;
@@ -329,8 +269,8 @@ body::before {
   left: 0;
   width: 12%;
   height: 100%;
-  background: rgba(143, 188, 143, 0.05); /* subtle pastel green */
-  z-index: 0; /* behind content */
+  background: rgba(143, 188, 143, 0.05);
+  z-index: -1;
 }
 
 body::after {
@@ -340,21 +280,20 @@ body::after {
   right: 0;
   width: 12%;
   height: 100%;
-  background: rgba(244, 194, 194, 0.05); /* subtle pastel pink */
-  z-index: 0; /* behind content */
+  background: rgba(244, 194, 194, 0.05);
+  z-index: -1;
 }
 
-/* 🌸 OPTIONAL: floating blobs in white content areas */
-body .content-blob {
+/* ✨ FLOATING BLOBS ON WHITE AREAS */
+.content-blob {
   position: fixed;
   border-radius: 50%;
-  z-index: 0;
+  z-index: -1;
   opacity: 0.08;
-  pointer-events: none; /* so it doesn’t block clicks */
+  pointer-events: none;
 }
 
-/* Left blob */
-body .content-blob.one {
+.content-blob.one {
   top: 25%;
   left: -150px;
   width: 300px;
@@ -362,11 +301,19 @@ body .content-blob.one {
   background: #8FBC8F;
 }
 
-/* Right blob */
-body .content-blob.two {
+.content-blob.two {
   bottom: 10%;
   right: -180px;
   width: 350px;
   height: 350px;
   background: #F4C2C2;
+}
+
+/* ✨ SUBTLE SPARKLES */
+body .sparkle {
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.15;
+  font-size: 22px;
 }
